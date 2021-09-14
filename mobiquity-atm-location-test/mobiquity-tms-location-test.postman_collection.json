@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "b1df02e2-3ef3-4385-9832-b0c14a624b33",
+		"name": "mobiquity-tms-location-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8181/atms/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8181/atms/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"atms",
+						"list"
+					]
+				},
+				"description": "\r\nmobiquity-tms-location-test\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8181/atms/Hoorn",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8181/atms/Hoorn",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"atms",
+						"Hoorn"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
